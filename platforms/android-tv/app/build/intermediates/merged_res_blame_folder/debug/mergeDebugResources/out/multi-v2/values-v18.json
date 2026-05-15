@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.digitalvirgo.galaxytv.app-mergeDebugResources-24:/values-v18/values-v18.xml",
+            "map": [
+                {
+                    "source": "/Users/matteoburgassi/.gradle/caches/8.12/transforms/5930540219ab88a688a649bc6dfe4e0a/transformed/leanback-1.0.0/res/values-v18/values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "10",
+                        "endColumns": "12",
+                        "endOffsets": "642"
+                    }
+                }
+            ]
+        }
+    ]
+}

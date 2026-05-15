@@ -1,0 +1,280 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/matteoburgassi/Repositories/Multiplatform/tv-vod/platforms/android-tv/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/matteoburgassi/Repositories/Multiplatform/tv-vod/platforms/android-tv/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/matteoburgassi/Repositories/Multiplatform/tv-vod/platforms/android-tv/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/matteoburgassi/Repositories/Multiplatform/tv-vod/platforms/android-tv/app/src/main/AndroidManifest.xml:2:1-35:12
+MERGED from [androidx.activity:activity:1.9.3] /Users/matteoburgassi/.gradle/caches/8.12/transforms/99117b6e235ebfd34a89c03abb5a2ebf/transformed/activity-1.9.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.9.3] /Users/matteoburgassi/.gradle/caches/8.12/transforms/a3b90e387d8fd5f5f423463d9c426f31/transformed/activity-ktx-1.9.3/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.leanback:leanback:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/5930540219ab88a688a649bc6dfe4e0a/transformed/leanback-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.webkit:webkit:1.12.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/12d52ee4b7c9125d2815e92d59df897f/transformed/webkit-1.12.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/c4577171798d172cac7220668b624761/transformed/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/e2c683a41bb19363807376f3e4a913e7/transformed/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/e0e160f0b5424e723abacac0241cec92/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/120e9fedc5be5200de207d74fdf7af3e/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/7f557e18fb2e9bf40cf7c5f349290dcf/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/18bd28e6fc95c5667b2936ca65c63568/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/addcd36fe68c221111a2fb1a3a03bd9a/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/f79adc8ffab6c0801a2cd4a71212b5c5/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/fb6907c37958e154b686bfaf7141dcb4/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/19c57506504efe54fad43a0de09b0e8a/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/10313877d41dfe504e8a819c55202cc9/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/ceb8a3c656eacf1c2c469dc40ccdf88c/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/bd4ad6fb74b8c2960827e41635b671a1/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.13.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/b5382120826d502ffbbc9ce426c8d18d/transformed/core-1.13.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/4e64e661661858175a0a06fcfafb6aa1/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/250f023784ce632f6cc2197104472d63/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /Users/matteoburgassi/.gradle/caches/8.12/transforms/81c50c7d817829270a764645584aa638/transformed/lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/matteoburgassi/.gradle/caches/8.12/transforms/5eb9a1edba5e2745385c09a62faf8931/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /Users/matteoburgassi/.gradle/caches/8.12/transforms/56379ee063a00a10ffdcd974b5f72af7/transformed/lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/matteoburgassi/.gradle/caches/8.12/transforms/ab72b777fdbea17be5dc43bf9d78fe74/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/matteoburgassi/.gradle/caches/8.12/transforms/50ebf77f3b5bd38f98bf40cd4f625684/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/matteoburgassi/.gradle/caches/8.12/transforms/15877c7de01cd94f9d1afb1f65f30813/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/matteoburgassi/.gradle/caches/8.12/transforms/0b386bfcf4bf980ab92137661060f3c4/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/5f58769c7069c14b00ef30fe53e00c8e/transformed/core-ktx-1.13.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/6330ed1218319c1678da11a2bdd8acc4/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/14135f0db6e68e9bb809249fe5be12c9/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/79c86781bfa1e2c5b0b7f43f4c1a0033/transformed/profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/a5f110d2327bd7698c1e3e3f1a8472cd/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/9b9a40ba88be7bcc372aed6c48b83c96/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/69568692b99d960eee6a3e59fdebb70b/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/24471cdffd9a7f693d968c776be6e318/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/029f74b59f8aaba86d094894f7483a68/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/d44fb6f818a422a7737d4721ce02599a/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/4df35eef09422795f89c8be3c77174ff/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/feca3555c6c5fd0f10f340efa0d15fa4/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from /Users/matteoburgassi/Repositories/Multiplatform/tv-vod/platforms/android-tv/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/matteoburgassi/Repositories/Multiplatform/tv-vod/platforms/android-tv/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/matteoburgassi/Repositories/Multiplatform/tv-vod/platforms/android-tv/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/matteoburgassi/Repositories/Multiplatform/tv-vod/platforms/android-tv/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/matteoburgassi/Repositories/Multiplatform/tv-vod/platforms/android-tv/app/src/main/AndroidManifest.xml:4:5-66
+	android:name
+		ADDED from /Users/matteoburgassi/Repositories/Multiplatform/tv-vod/platforms/android-tv/app/src/main/AndroidManifest.xml:4:22-64
+uses-feature#android.software.leanback
+ADDED from /Users/matteoburgassi/Repositories/Multiplatform/tv-vod/platforms/android-tv/app/src/main/AndroidManifest.xml:6:5-8:34
+	android:required
+		ADDED from /Users/matteoburgassi/Repositories/Multiplatform/tv-vod/platforms/android-tv/app/src/main/AndroidManifest.xml:8:9-32
+	android:name
+		ADDED from /Users/matteoburgassi/Repositories/Multiplatform/tv-vod/platforms/android-tv/app/src/main/AndroidManifest.xml:7:9-49
+uses-feature#android.hardware.touchscreen
+ADDED from /Users/matteoburgassi/Repositories/Multiplatform/tv-vod/platforms/android-tv/app/src/main/AndroidManifest.xml:9:5-11:35
+	android:required
+		ADDED from /Users/matteoburgassi/Repositories/Multiplatform/tv-vod/platforms/android-tv/app/src/main/AndroidManifest.xml:11:9-33
+	android:name
+		ADDED from /Users/matteoburgassi/Repositories/Multiplatform/tv-vod/platforms/android-tv/app/src/main/AndroidManifest.xml:10:9-52
+application
+ADDED from /Users/matteoburgassi/Repositories/Multiplatform/tv-vod/platforms/android-tv/app/src/main/AndroidManifest.xml:13:5-34:19
+INJECTED from /Users/matteoburgassi/Repositories/Multiplatform/tv-vod/platforms/android-tv/app/src/main/AndroidManifest.xml:13:5-34:19
+MERGED from [androidx.core:core:1.13.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/b5382120826d502ffbbc9ce426c8d18d/transformed/core-1.13.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/b5382120826d502ffbbc9ce426c8d18d/transformed/core-1.13.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/14135f0db6e68e9bb809249fe5be12c9/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/14135f0db6e68e9bb809249fe5be12c9/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/79c86781bfa1e2c5b0b7f43f4c1a0033/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/79c86781bfa1e2c5b0b7f43f4c1a0033/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/a5f110d2327bd7698c1e3e3f1a8472cd/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/a5f110d2327bd7698c1e3e3f1a8472cd/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /Users/matteoburgassi/Repositories/Multiplatform/tv-vod/platforms/android-tv/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/b5382120826d502ffbbc9ce426c8d18d/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/matteoburgassi/Repositories/Multiplatform/tv-vod/platforms/android-tv/app/src/main/AndroidManifest.xml:18:9-35
+	android:label
+		ADDED from /Users/matteoburgassi/Repositories/Multiplatform/tv-vod/platforms/android-tv/app/src/main/AndroidManifest.xml:17:9-41
+	android:hardwareAccelerated
+		ADDED from /Users/matteoburgassi/Repositories/Multiplatform/tv-vod/platforms/android-tv/app/src/main/AndroidManifest.xml:20:9-43
+	android:icon
+		ADDED from /Users/matteoburgassi/Repositories/Multiplatform/tv-vod/platforms/android-tv/app/src/main/AndroidManifest.xml:15:9-43
+	android:allowBackup
+		ADDED from /Users/matteoburgassi/Repositories/Multiplatform/tv-vod/platforms/android-tv/app/src/main/AndroidManifest.xml:14:9-35
+	android:banner
+		ADDED from /Users/matteoburgassi/Repositories/Multiplatform/tv-vod/platforms/android-tv/app/src/main/AndroidManifest.xml:16:9-42
+	android:theme
+		ADDED from /Users/matteoburgassi/Repositories/Multiplatform/tv-vod/platforms/android-tv/app/src/main/AndroidManifest.xml:19:9-46
+	android:usesCleartextTraffic
+		ADDED from /Users/matteoburgassi/Repositories/Multiplatform/tv-vod/platforms/android-tv/app/src/main/AndroidManifest.xml:21:9-45
+activity#com.digitalvirgo.galaxytv.MainActivity
+ADDED from /Users/matteoburgassi/Repositories/Multiplatform/tv-vod/platforms/android-tv/app/src/main/AndroidManifest.xml:23:9-33:20
+	android:screenOrientation
+		ADDED from /Users/matteoburgassi/Repositories/Multiplatform/tv-vod/platforms/android-tv/app/src/main/AndroidManifest.xml:27:13-50
+	android:exported
+		ADDED from /Users/matteoburgassi/Repositories/Multiplatform/tv-vod/platforms/android-tv/app/src/main/AndroidManifest.xml:25:13-36
+	android:configChanges
+		ADDED from /Users/matteoburgassi/Repositories/Multiplatform/tv-vod/platforms/android-tv/app/src/main/AndroidManifest.xml:26:13-74
+	android:name
+		ADDED from /Users/matteoburgassi/Repositories/Multiplatform/tv-vod/platforms/android-tv/app/src/main/AndroidManifest.xml:24:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LEANBACK_LAUNCHER
+ADDED from /Users/matteoburgassi/Repositories/Multiplatform/tv-vod/platforms/android-tv/app/src/main/AndroidManifest.xml:29:13-32:29
+action#android.intent.action.MAIN
+ADDED from /Users/matteoburgassi/Repositories/Multiplatform/tv-vod/platforms/android-tv/app/src/main/AndroidManifest.xml:30:17-68
+	android:name
+		ADDED from /Users/matteoburgassi/Repositories/Multiplatform/tv-vod/platforms/android-tv/app/src/main/AndroidManifest.xml:30:25-66
+category#android.intent.category.LEANBACK_LAUNCHER
+ADDED from /Users/matteoburgassi/Repositories/Multiplatform/tv-vod/platforms/android-tv/app/src/main/AndroidManifest.xml:31:17-85
+	android:name
+		ADDED from /Users/matteoburgassi/Repositories/Multiplatform/tv-vod/platforms/android-tv/app/src/main/AndroidManifest.xml:31:27-83
+uses-sdk
+INJECTED from /Users/matteoburgassi/Repositories/Multiplatform/tv-vod/platforms/android-tv/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/matteoburgassi/Repositories/Multiplatform/tv-vod/platforms/android-tv/app/src/main/AndroidManifest.xml
+INJECTED from /Users/matteoburgassi/Repositories/Multiplatform/tv-vod/platforms/android-tv/app/src/main/AndroidManifest.xml
+MERGED from [androidx.activity:activity:1.9.3] /Users/matteoburgassi/.gradle/caches/8.12/transforms/99117b6e235ebfd34a89c03abb5a2ebf/transformed/activity-1.9.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.3] /Users/matteoburgassi/.gradle/caches/8.12/transforms/99117b6e235ebfd34a89c03abb5a2ebf/transformed/activity-1.9.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.3] /Users/matteoburgassi/.gradle/caches/8.12/transforms/a3b90e387d8fd5f5f423463d9c426f31/transformed/activity-ktx-1.9.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.3] /Users/matteoburgassi/.gradle/caches/8.12/transforms/a3b90e387d8fd5f5f423463d9c426f31/transformed/activity-ktx-1.9.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.leanback:leanback:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/5930540219ab88a688a649bc6dfe4e0a/transformed/leanback-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.leanback:leanback:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/5930540219ab88a688a649bc6dfe4e0a/transformed/leanback-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.webkit:webkit:1.12.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/12d52ee4b7c9125d2815e92d59df897f/transformed/webkit-1.12.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.webkit:webkit:1.12.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/12d52ee4b7c9125d2815e92d59df897f/transformed/webkit-1.12.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/c4577171798d172cac7220668b624761/transformed/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/c4577171798d172cac7220668b624761/transformed/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/e2c683a41bb19363807376f3e4a913e7/transformed/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/e2c683a41bb19363807376f3e4a913e7/transformed/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/e0e160f0b5424e723abacac0241cec92/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/e0e160f0b5424e723abacac0241cec92/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/120e9fedc5be5200de207d74fdf7af3e/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/120e9fedc5be5200de207d74fdf7af3e/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/7f557e18fb2e9bf40cf7c5f349290dcf/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/7f557e18fb2e9bf40cf7c5f349290dcf/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/18bd28e6fc95c5667b2936ca65c63568/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/18bd28e6fc95c5667b2936ca65c63568/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/addcd36fe68c221111a2fb1a3a03bd9a/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/addcd36fe68c221111a2fb1a3a03bd9a/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/f79adc8ffab6c0801a2cd4a71212b5c5/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/f79adc8ffab6c0801a2cd4a71212b5c5/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/fb6907c37958e154b686bfaf7141dcb4/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/fb6907c37958e154b686bfaf7141dcb4/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/19c57506504efe54fad43a0de09b0e8a/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/19c57506504efe54fad43a0de09b0e8a/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/10313877d41dfe504e8a819c55202cc9/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/10313877d41dfe504e8a819c55202cc9/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/ceb8a3c656eacf1c2c469dc40ccdf88c/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/ceb8a3c656eacf1c2c469dc40ccdf88c/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/bd4ad6fb74b8c2960827e41635b671a1/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/bd4ad6fb74b8c2960827e41635b671a1/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/b5382120826d502ffbbc9ce426c8d18d/transformed/core-1.13.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/b5382120826d502ffbbc9ce426c8d18d/transformed/core-1.13.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/4e64e661661858175a0a06fcfafb6aa1/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/4e64e661661858175a0a06fcfafb6aa1/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/250f023784ce632f6cc2197104472d63/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/250f023784ce632f6cc2197104472d63/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /Users/matteoburgassi/.gradle/caches/8.12/transforms/81c50c7d817829270a764645584aa638/transformed/lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /Users/matteoburgassi/.gradle/caches/8.12/transforms/81c50c7d817829270a764645584aa638/transformed/lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/matteoburgassi/.gradle/caches/8.12/transforms/5eb9a1edba5e2745385c09a62faf8931/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/matteoburgassi/.gradle/caches/8.12/transforms/5eb9a1edba5e2745385c09a62faf8931/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /Users/matteoburgassi/.gradle/caches/8.12/transforms/56379ee063a00a10ffdcd974b5f72af7/transformed/lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /Users/matteoburgassi/.gradle/caches/8.12/transforms/56379ee063a00a10ffdcd974b5f72af7/transformed/lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/matteoburgassi/.gradle/caches/8.12/transforms/ab72b777fdbea17be5dc43bf9d78fe74/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/matteoburgassi/.gradle/caches/8.12/transforms/ab72b777fdbea17be5dc43bf9d78fe74/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/matteoburgassi/.gradle/caches/8.12/transforms/50ebf77f3b5bd38f98bf40cd4f625684/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/matteoburgassi/.gradle/caches/8.12/transforms/50ebf77f3b5bd38f98bf40cd4f625684/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/matteoburgassi/.gradle/caches/8.12/transforms/15877c7de01cd94f9d1afb1f65f30813/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/matteoburgassi/.gradle/caches/8.12/transforms/15877c7de01cd94f9d1afb1f65f30813/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/matteoburgassi/.gradle/caches/8.12/transforms/0b386bfcf4bf980ab92137661060f3c4/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/matteoburgassi/.gradle/caches/8.12/transforms/0b386bfcf4bf980ab92137661060f3c4/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/5f58769c7069c14b00ef30fe53e00c8e/transformed/core-ktx-1.13.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/5f58769c7069c14b00ef30fe53e00c8e/transformed/core-ktx-1.13.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/6330ed1218319c1678da11a2bdd8acc4/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/6330ed1218319c1678da11a2bdd8acc4/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/14135f0db6e68e9bb809249fe5be12c9/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/14135f0db6e68e9bb809249fe5be12c9/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/79c86781bfa1e2c5b0b7f43f4c1a0033/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/79c86781bfa1e2c5b0b7f43f4c1a0033/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/a5f110d2327bd7698c1e3e3f1a8472cd/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/a5f110d2327bd7698c1e3e3f1a8472cd/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/9b9a40ba88be7bcc372aed6c48b83c96/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/9b9a40ba88be7bcc372aed6c48b83c96/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/69568692b99d960eee6a3e59fdebb70b/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/69568692b99d960eee6a3e59fdebb70b/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/24471cdffd9a7f693d968c776be6e318/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/24471cdffd9a7f693d968c776be6e318/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/029f74b59f8aaba86d094894f7483a68/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/029f74b59f8aaba86d094894f7483a68/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/d44fb6f818a422a7737d4721ce02599a/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/d44fb6f818a422a7737d4721ce02599a/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/4df35eef09422795f89c8be3c77174ff/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/4df35eef09422795f89c8be3c77174ff/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/feca3555c6c5fd0f10f340efa0d15fa4/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/feca3555c6c5fd0f10f340efa0d15fa4/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from /Users/matteoburgassi/Repositories/Multiplatform/tv-vod/platforms/android-tv/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/matteoburgassi/Repositories/Multiplatform/tv-vod/platforms/android-tv/app/src/main/AndroidManifest.xml
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/b5382120826d502ffbbc9ce426c8d18d/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/b5382120826d502ffbbc9ce426c8d18d/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/b5382120826d502ffbbc9ce426c8d18d/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+permission#com.digitalvirgo.galaxytv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/b5382120826d502ffbbc9ce426c8d18d/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/b5382120826d502ffbbc9ce426c8d18d/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/b5382120826d502ffbbc9ce426c8d18d/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/b5382120826d502ffbbc9ce426c8d18d/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/b5382120826d502ffbbc9ce426c8d18d/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+uses-permission#com.digitalvirgo.galaxytv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/b5382120826d502ffbbc9ce426c8d18d/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /Users/matteoburgassi/.gradle/caches/8.12/transforms/b5382120826d502ffbbc9ce426c8d18d/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/79c86781bfa1e2c5b0b7f43f4c1a0033/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/a5f110d2327bd7698c1e3e3f1a8472cd/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/a5f110d2327bd7698c1e3e3f1a8472cd/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/79c86781bfa1e2c5b0b7f43f4c1a0033/transformed/profileinstaller-1.3.1/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/79c86781bfa1e2c5b0b7f43f4c1a0033/transformed/profileinstaller-1.3.1/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/79c86781bfa1e2c5b0b7f43f4c1a0033/transformed/profileinstaller-1.3.1/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/79c86781bfa1e2c5b0b7f43f4c1a0033/transformed/profileinstaller-1.3.1/AndroidManifest.xml:25:13-67
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/79c86781bfa1e2c5b0b7f43f4c1a0033/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/79c86781bfa1e2c5b0b7f43f4c1a0033/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/79c86781bfa1e2c5b0b7f43f4c1a0033/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/79c86781bfa1e2c5b0b7f43f4c1a0033/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/79c86781bfa1e2c5b0b7f43f4c1a0033/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/79c86781bfa1e2c5b0b7f43f4c1a0033/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/79c86781bfa1e2c5b0b7f43f4c1a0033/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/79c86781bfa1e2c5b0b7f43f4c1a0033/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/79c86781bfa1e2c5b0b7f43f4c1a0033/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/79c86781bfa1e2c5b0b7f43f4c1a0033/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/79c86781bfa1e2c5b0b7f43f4c1a0033/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/79c86781bfa1e2c5b0b7f43f4c1a0033/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/79c86781bfa1e2c5b0b7f43f4c1a0033/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/79c86781bfa1e2c5b0b7f43f4c1a0033/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/79c86781bfa1e2c5b0b7f43f4c1a0033/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/79c86781bfa1e2c5b0b7f43f4c1a0033/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/79c86781bfa1e2c5b0b7f43f4c1a0033/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/79c86781bfa1e2c5b0b7f43f4c1a0033/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/79c86781bfa1e2c5b0b7f43f4c1a0033/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/79c86781bfa1e2c5b0b7f43f4c1a0033/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/matteoburgassi/.gradle/caches/8.12/transforms/79c86781bfa1e2c5b0b7f43f4c1a0033/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92

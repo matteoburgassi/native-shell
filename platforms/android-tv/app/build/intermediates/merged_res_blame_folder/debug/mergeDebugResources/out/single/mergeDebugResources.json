@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.digitalvirgo.galaxytv.app-debug-26:/drawable_banner.png.flat",
+        "source": "com.digitalvirgo.galaxytv.app-main-28:/drawable/banner.png"
+    },
+    {
+        "merged": "com.digitalvirgo.galaxytv.app-debug-26:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.digitalvirgo.galaxytv.app-main-28:/mipmap-hdpi/ic_launcher.png"
+    }
+]

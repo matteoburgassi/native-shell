@@ -1,0 +1,65 @@
+{
+  "name": "@castlabs/prestoplay",
+  "description": "PRESTOplay Video Player",
+  "version": "6.30.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/castlabs/prestoplay-web.git"
+  },
+  "homepage": "https://castlabs.com/playback/prestoplay/",
+  "bugs": {
+    "url": "https://support.castlabs.com/"
+  },
+  "license": "See https://castlabs.com/legal/",
+  "main": "cl.core.js",
+  "typings": "typings.d.ts",
+  "files": [
+    "*.js",
+    "*.css",
+    "*.d.ts",
+    "cjs/*",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "peerDependencies": {
+    "@broadpeak/smartlib": "5.0.1-4c69e21",
+    "@broadpeak/smartlib-all-compatibility": "5.0.1-4c69e21",
+    "@broadpeak/smartlib-analytics": "5.0.1-4c69e21",
+    "mux.js": "^5.14.1",
+    "npaw-plugin": "7.3.8",
+    "npaw-plugin-adapters": "7.3.8",
+    "youboralib": "6.8.59"
+  },
+  "peerDependenciesMeta": {
+    "mux.js": {
+      "optional": true
+    },
+    "youboralib": {
+      "optional": true
+    },
+    "@broadpeak/smartlib": {
+      "optional": true
+    },
+    "@broadpeak/smartlib-analytics": {
+      "optional": true
+    },
+    "@broadpeak/smartlib-all-compatibility": {
+      "optional": true
+    }
+  },
+  "keywords": [
+    "html5 video player",
+    "html5 video",
+    "html5 video thumbnail",
+    "video player with thumbnails",
+    "castlabs player",
+    "prestoplay player",
+    "prestoplay",
+    "dash player",
+    "hls player",
+    "mpeg dash player",
+    "hls html5",
+    "HTML5 player",
+    "video player"
+  ]
+}

@@ -1,0 +1,9 @@
+(function(){var g={}; var _ = _ || {}
+var f=function(window){var aB=function(){this.g=new _.L("clpp.onboard");this.a=new Set},bB=function(a,b){function c(n){return n&&(_.R.startsWith(n,_.ze)||_.R.startsWith(n,"http://")||_.R.startsWith(n,"//"))?n:d+n}var d=b.baseUrl;_.R.endsWith(d,"/")||(d+="/");var e=c(b.widevineUrl||"widevine"),f=c(b.playreadyUrl||"playready"),g=c(b.fairplayUrl||"fairplay"),h=b.serverCertificate,l=_.Zp("V2"),m=new _.$p(a);m.eb(_.Md,{licenseUrl:e,videoRobustness:[_.Db,void 0],audioRobustness:[_.Cb,void 0],persistentStateRequired:!1,distinctiveIdentifierRequired:!1,
+serverCertificate:_.aq(h,l),modifiers:{licenseRequest:_.Rq,licenseResponse:_.Wq}});m.eb(_.Id,{licenseUrl:g,certificateUrl:g,modifiers:{licenseRequest:_.Tq,licenseResponse:_.Uq,extractContentId:_.Pq,certificateRequest:_.Vq}});m.eb(_.Kd,{licenseUrl:f,modifiers:{licenseRequest:_.Rq}});_.Wn(m)};_.w(aB,_.bv);aB.prototype.uninstall=function(){for(var a=_.v(this.a),b=a.next();!b.done;b=a.next())delete _.Vn[b.value];this.a.clear()};
+aB.prototype.beforeLoad=function(a){a=a.getConfiguration().drm;var b;if(b=!(!a||!a.env))b=a&&a.customData,b=!(!b||!b.baseUrl);b&&(b=a.env,a=a.customData,a={baseUrl:a.baseUrl,widevineUrl:a.widevineUrl,serverCertificate:a.serverCertificate,playreadyUrl:a.playreadyUrl,fairplayUrl:a.fairplayUrl},this.g.info("Registering the DRMtoday Onboard environment, name\x3d'"+b+"'"),bB(b,a),this.a.add(b))};aB.prototype.id=function(){return"onboard"};_.K("clpp.onboard.OnboardComponent",aB);
+_.K("clpp.onboard.register",bB);};
+if(typeof(module)!="undefined"&&module.exports){var x=require("./cl.core.js");_ = x._;(f.call(g,this));module.exports=g;}
+else if (typeof(define)!="undefined"&&define.amd) {define(["./cl.core"], function(c){_=c._;(f.call(g,this));return g;});}
+else{_=this.clpp._;(f.call(g,this));}
+})();

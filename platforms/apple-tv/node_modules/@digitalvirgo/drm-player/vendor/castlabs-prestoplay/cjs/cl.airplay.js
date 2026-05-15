@@ -1,0 +1,8 @@
+(function(){var g={}; var _ = _ || {}
+var f=function(window){var GX=function(){var a=this;this.a=this.m=null;this.l=this.f=this.j=!1;this.o=new _.ej(function(){a.m.play()["catch"](function(){})});this.h=new _.wi},HX=function(){};_.w(GX,_.Zv);_.r=GX.prototype;_.r.onPlayerCreated=function(a){this.m=a;this.a=a.getSurface().getMedia()};_.r.onContentWillLoad=function(){this.a&&(this.h.on(this.a,"webkitplaybacktargetavailabilitychanged",this.wn.bind(this)),this.h.on(this.a,"webkitcurrentplaybacktargetiswirelesschanged",this.bo.bind(this)))};
+_.r.onPlayerWillRelease=function(){this.o.stop();this.h.release()};_.r.id=function(){return"airplay"};_.r.wn=function(a){switch(a.availability){case "available":this.f=!0;break;case "not-available":this.f=!1}this.m.trigger(new _.Q(_.Ic,{canCast:this.f}))};_.r.bo=function(){var a=(this.j=this.a.webkitCurrentPlaybackTargetIsWireless)?_.Hc:_.Gc;if(this.l||!this.m.isPaused()||3===this.m.getState())this.l?this.m.play()["catch"](function(){}):this.o.ha(.01);this.m.trigger(new _.Q(a))};_.r.Da=function(){return this.j};
+_.r.kd=function(){return this.f};_.r.Qo=function(){this.f&&(this.l=!this.m.isPaused(),this.a.webkitShowPlaybackTargetPicker())};_.K("clpp.airplay.AirPlayPlugin",GX);GX.prototype.showCastMenu=GX.prototype.Qo;GX.prototype.canCast=GX.prototype.kd;GX.prototype.isCasting=GX.prototype.Da;GX.Id="airplay";HX.prototype.create=function(){return new GX};_.bp(new HX);};
+if(typeof(module)!="undefined"&&module.exports){var x=require("./cl.core.js");_ = x._;(f.call(g,this));module.exports=g;}
+else if (typeof(define)!="undefined"&&define.amd) {define(["./cl.core"], function(c){_=c._;(f.call(g,this));return g;});}
+else{_=this.clpp._;(f.call(g,this));}
+})();

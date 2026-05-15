@@ -1,0 +1,178 @@
+.clpp-container {
+  display: block;
+  overflow: hidden;
+  box-sizing: border-box;
+  background-color: transparent;
+  position: relative;
+  padding: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 100%;
+  height: 100%;
+}
+
+.clpp-hidden {
+  display: none;
+}
+
+.clpp-hide {
+  display: none;
+}
+
+.clpp-fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.clpp-ima > div {
+  position: absolute;
+  top: 0;
+  left: 0
+}
+
+.clpp-text-container {
+  pointer-events: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: 1.5%;
+}
+
+.clpp-text-wrapper {
+  unicode-bidi: plaintext;
+}
+
+.clpp-text-cue {
+  display: inline;
+  unicode-bidi: plaintext;
+  white-space: pre-line;
+  overflow-wrap: break-word;
+  font-family: sans-serif;
+  line-height: 1.3em;
+}
+
+.clpp-text-ttml,
+.clpp-text-vtt,
+.clpp-text-plain {
+  color: rgba(255, 255, 255, 1);
+}
+
+.clpp-text-ttml .clpp-text-cue {
+  white-space: normal;
+}
+
+.clpp-text-ttml .clpp-text-cue,
+.clpp-text-vtt .clpp-text-cue,
+.clpp-text-plain .clpp-text-cue {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.clpp-text-ttml .clpp-text-cue-region .clpp-text-cue {
+  background-color: transparent;
+}
+
+.clpp-text-cue c,
+.clpp-text-cue v,
+.clpp-text-cue lang {
+  display: inline;
+}
+
+.clpp-text-cue-region {
+  position: absolute;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.clpp-text-cue-image {
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  height: 100%;
+  width: 100%;
+}
+
+.clpp-text-vtt .clpp-text-cue-region {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.clpp-text-ttml .clpp-text-cue-region {
+  overflow: visible;
+}
+
+.clpp-text-container .white {
+  color: rgba(255, 255, 255, 1);
+}
+.clpp-text-container .lime {
+  color: rgba(0, 255, 0, 1);
+}
+.clpp-text-container .cyan {
+  color: rgba(0, 255, 255, 1);
+}
+.clpp-text-container .red {
+  color: rgba(255, 0, 0, 1);
+}
+.clpp-text-container .yellow {
+  color: rgba(255, 255, 0, 1);
+}
+.clpp-text-container .magenta {
+  color: rgba(255, 0, 255, 1);
+}
+.clpp-text-container .blue {
+  color: rgba(0, 0, 255, 1);
+}
+.clpp-text-container .black {
+  color: rgba(0,0,0,1);
+}
+.clpp-text-container .bg_white {
+  background-color: rgba(255, 255, 255, 1);
+}
+.clpp-text-container .bg_lime {
+  background-color: rgba(0, 255, 0, 1);
+}
+.clpp-text-container .bg_cyan {
+  background-color: rgba(0, 255, 255, 1);
+}
+.clpp-text-container .bg_red {
+  background-color: rgba(255, 0, 0, 1);
+}
+.clpp-text-container .bg_yellow {
+  background-color: rgba(255, 255, 0, 1);
+}
+.clpp-text-container .bg_magenta {
+  background-color: rgba(255, 0, 255, 1);
+}
+.clpp-text-container .bg_blue {
+  background-color: rgba(0, 0, 255, 1);
+}
+.clpp-text-container .bg_black {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.clpp-container.secondary {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.clpp-mc-playlist {
+  position: absolute;
+}
+.clpp-mc-playlist .clpp-mc-playlist-item {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.clpp-mc-playlist .clpp-mc-playlist-item video {
+  z-index: 0;
+  opacity: 0;
+}
+.clpp-mc-playlist .clpp-mc-playlist-item video.clpp-visible {
+  z-index: 1;
+  opacity: 1;
+}

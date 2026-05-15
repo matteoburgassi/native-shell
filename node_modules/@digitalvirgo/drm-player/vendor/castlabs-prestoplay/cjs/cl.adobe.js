@@ -1,0 +1,8 @@
+(function(){var g={}; var _ = _ || {}
+var f=function(window){var IX=function(){this.m=this.f=null;this.a="";this.g=new _.L("clpp.adobe.AdobePlugin")},LX=function(a){a.f=new _.wi;a.f.on(a.m,_.Ng,function(){return JX(a)});a.f.on(a.m,_.Mg,function(){s.Media.play(a.a,a.m.getPosition())});a.f.on(a.m,_.Me,function(){return KX(a)});a.f.on(a.m,_.ig,function(b){b=b.detail;switch(b.currentState){case 3:a.a.length||KX(a);s.Media.play(a.a,a.m.getPosition());break;case 4:case 2:JX(a);break;case 5:case _.eu:case _.Co:a.g.info("Close session for "+a.a+" in player state "+
+(b.currentState+".")),JX(a),s.Media.close(a.a),a.a=""}})},KX=function(a){var b=a.m.getLoadedSource();a.a=b?b.name||b.url:"";a.g.info("Open session for "+a.a+" with duration "+a.m.getDuration());s.Media.open(a.a,a.m.getDuration(),_.ya)},JX=function(a){s.Media.stop(a.a,a.m.getPosition())},MX=function(){};_.w(IX,_.Zv);IX.prototype.onPlayerCreated=function(a){var b=a.getConfiguration().adobe;b&&!1===b.enabled?this.g.debug("Adobe plugin is disabled."):window.s&&s.Media?(this.m=a,LX(this)):this.g.warn("Adobe API not available.")};
+IX.prototype.onPlayerWillDestroy=function(){this.f&&(this.f.release(),this.f=null);this.m=null;this.a=""};IX.prototype.id=function(){return"adobe"};_.K("clpp.adobe.AdobeAnalyticsPlugin",IX);IX.Id="adobe";MX.prototype.create=function(){return new IX};_.bp(new MX);};
+if(typeof(module)!="undefined"&&module.exports){var x=require("./cl.core.js");_ = x._;(f.call(g,this));module.exports=g;}
+else if (typeof(define)!="undefined"&&define.amd) {define(["./cl.core"], function(c){_=c._;(f.call(g,this));return g;});}
+else{_=this.clpp._;(f.call(g,this));}
+})();
