@@ -1,77 +1,212 @@
-#Smart TV Streaming app
+# TV Shell - Smart TV App Development Kit
 
-# React + TypeScript + Vite
+A complete starter template for building Smart TV applications with maximum platform coverage and AI-accelerated development.
 
-added to verify
+## 🎯 Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository provides production-ready native shells for all major Smart TV platforms, designed to work seamlessly with AI development tools like **Bolt.new** and **Cursor** for rapid iteration.
 
-Currently, two official plugins are available:
+### Supported Platforms
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+| Platform | Architecture | Market Coverage | Development Approach |
+|----------|-------------|-----------------|---------------------|
+| **webOS (LG)** | Hybrid Web App | ~25% | HTML5 shell + Web App |
+| **Tizen (Samsung)** | Hybrid Web App | ~30% | HTML5 shell + Web App |
+| **Android TV/Google TV** | Hybrid Web App | ~40% | Native shell + WebView |
+| **Apple TV (tvOS)** | React Native | ~15% | React Native + Expo |
 
-## React Compiler
+**Total Market Coverage: ~110%** (overlapping market share)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🏗️ Architecture
 
-## Expanding the ESLint configuration
+This project implements a **multi-architecture approach** optimized for different platform capabilities:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Hybrid Web App (webOS, Tizen, Android TV)
+- **Frontend**: React SPA with Vite, TypeScript, Tailwind CSS
+- **Navigation**: Spatial navigation for TV remotes (`@noriginmedia/norigin-spatial-navigation`)
+- **Playback**: DRM-enabled video player ([`@digitalvirgo/drm-player`](https://github.com/matteoburgassi/drm-player))
+- **Authentication**: Device code flow optimized for TV UX
+- **Deployment**: Over-the-air updates via hosted web app
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Native React Native (Apple TV)
+- **Framework**: React Native + Expo with tvOS target
+- **Navigation**: Native focus engine with TV-optimized components  
+- **Code Sharing**: ~90% shared with smartphone versions
+- **Deployment**: App Store distribution
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 🚀 Quick Start
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Prerequisites
+- Node.js 18+
+- For Apple TV: Xcode 15+ and Apple Developer Account
+- For Android TV: Android Studio and Android SDK
+- For webOS: LG webOS SDK (`ares-cli`)
+- For Tizen: Tizen Studio
+
+### 1. Clone and Install
+```bash
+git clone https://github.com/matteoburgassi/tv-shell.git
+cd tv-shell
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### 2. Start Development Server (Web App)
+```bash
+npm run dev
+# Starts Vite dev server at http://localhost:5173
 ```
+
+### 3. Platform-Specific Setup
+
+#### webOS (LG TVs)
+```bash
+cd webos
+# Update index.html to point to your dev server
+# Package and install on LG TV or simulator
+ares-package .
+ares-install com.digitalvirgo.galaxytv_1.0.0_all.ipk -d tv-simulator
+```
+
+#### Tizen (Samsung TVs)
+```bash
+cd tizen  
+# Update index.html to point to your dev server
+# Build and install via Tizen CLI
+tizen build-web
+tizen install -n GalaxyTV.wgt -t tv-simulator
+```
+
+#### Android TV
+```bash
+cd android-tv
+# Update WebView URL in MainActivity.kt
+./gradlew assembleDebug
+adb install app/build/outputs/apk/debug/app-debug.apk
+```
+
+#### Apple TV (React Native)
+```bash
+cd apple-tv
+npm install
+npx expo start
+# Press 'i' for iOS simulator, select Apple TV
+```
+
+## 🤖 AI-Accelerated Development
+
+This template is specifically designed to work with AI development tools:
+
+### Bolt.new Integration
+- **Web App**: Generate React components, pages, and flows directly
+- **Apple TV**: Create React Native screens and components  
+- **Styling**: Tailwind CSS for rapid UI iteration
+- **APIs**: Pre-configured API clients for content and authentication
+
+### Cursor Acceleration  
+- **Native Shells**: Scaffold platform-specific build configs and deployment scripts
+- **Backend Integration**: Generate API wrappers and data models
+- **Platform Optimization**: TV-specific performance and UX enhancements
+
+## 🛠️ Development Workflow
+
+### 1. Frontend Development (Bolt.new)
+```bash
+# Start your web app
+npm run dev
+
+# Use Bolt.new to iterate on:
+# - React components and pages
+# - Spatial navigation flows  
+# - Video player integration
+# - Authentication flows
+```
+
+### 2. Platform Deployment (Cursor)
+```bash
+# Use Cursor to help with:
+# - Platform-specific build configurations
+# - App store submission processes  
+# - Performance optimizations
+# - Native feature integrations
+```
+
+### 3. Testing on Real Devices
+- **webOS**: LG Developer Mode TVs
+- **Tizen**: Samsung Developer Mode TVs  
+- **Android TV**: ADB over network or USB
+- **Apple TV**: TestFlight or direct Xcode deployment
+
+## 📦 Key Features
+
+### TV-Optimized UX
+- **Spatial Navigation**: D-pad and remote control support
+- **Focus Management**: Visual focus indicators and navigation logic
+- **Safe Areas**: Proper handling of TV screen overscan
+- **Performance**: Optimized for TV hardware constraints
+
+### Content & Playback
+- **DRM Support**: Licensed video playback with `@digitalvirgo/drm-player`
+- **HLS Streaming**: Adaptive bitrate streaming
+- **Content APIs**: Integration with Galaxy content management
+- **Offline Support**: Cached metadata and progressive enhancement
+
+### Authentication
+- **Device Code Flow**: QR code pairing for keyboardless TVs
+- **Session Management**: Persistent auth across app launches  
+- **Multi-Device**: Sync with smartphone and web accounts
+
+### Deployment
+- **OTA Updates**: Web app updates without app store submissions
+- **CDN Distribution**: Global content delivery optimization
+- **Analytics**: Usage tracking and performance monitoring
+
+## 🔧 Configuration
+
+### Environment Variables
+```bash
+# Web App Development
+VITE_API_BASE_URL=https://your-api.com
+VITE_CDN_BASE_URL=https://your-cdn.com
+VITE_AUTH_BASE_URL=https://your-auth.com
+
+# Production
+VITE_APP_ENV=production
+VITE_ENABLE_ANALYTICS=true
+```
+
+### Platform Customization
+- **webOS**: Update `appinfo.json` for app metadata
+- **Tizen**: Configure `config.xml` for Samsung certification  
+- **Android TV**: Modify `build.gradle` for Play Store submission
+- **Apple TV**: Update `app.config.js` for App Store Connect
+
+## 📖 Documentation
+
+- **Architecture Overview**: See `docs/architecture-slides.md` for detailed architecture decisions
+- **Platform Guides**: Individual README files in each platform directory
+- **API Reference**: Generated docs in `docs/api/`
+- **Deployment Guides**: Step-by-step platform deployment in `docs/deployment/`
+
+## 🤝 Contributing
+
+This is a template repository designed to be forked and customized. Key areas for contribution:
+
+1. **Platform Support**: Additional TV platforms or streaming devices
+2. **AI Integration**: Enhanced Bolt.new/Cursor workflows  
+3. **Performance**: TV-specific optimizations and benchmarks
+4. **Documentation**: Improved setup guides and troubleshooting
+
+## 📄 License
+
+MIT License - see [LICENSE](LICENSE) for details.
+
+## 🙏 Acknowledgments
+
+- Built on the foundation of the **tv-vod** project
+- **DRM Player**: [`@digitalvirgo/drm-player`](https://github.com/matteoburgassi/drm-player) façade for TV playback
+- **Spatial Navigation**: [`@noriginmedia/norigin-spatial-navigation`](https://github.com/NoriginMedia/Norigin-Spatial-Navigation)
+- **AI Tools**: Optimized for [Bolt.new](https://bolt.new) and [Cursor](https://cursor.sh)
+
+---
+
+**Ready to build the next generation of Smart TV apps? Clone this repo and start with Bolt.new! 🚀**
